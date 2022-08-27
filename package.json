@@ -1,0 +1,25 @@
+{
+  "name": "prisma_stuff",
+  "version": "1.0.0",
+  "description": "Start a project with:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "nodemon": "^2.0.19",
+    "prisma": "^4.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1"
+  }
+}
